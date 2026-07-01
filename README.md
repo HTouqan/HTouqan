@@ -2,6 +2,8 @@
 
 I build small, useful, local-first tools. The kind I want to use myself.
 
+By day I design network and orchestration solutions at a regional carrier. Where I'm headed is security and digital forensics, so a lot of what I build here is me getting hands-on with the operations, monitoring, and incident side that the day job doesn't put in front of me.
+
 [LinkedIn](https://www.linkedin.com/in/hashemtouqan/) for the formal bio.
 
 ---
@@ -28,11 +30,11 @@ Automated industrial bearing inspection rig. Tkinter operator GUI, TMC stepper m
 
 ### Personal MCP server
 
-FastMCP server that exposes my CV, projects, voice, and preferences as searchable documents to Claude and other LLM clients across my devices. SQLite FTS5 backend, `streamable-http` transport behind Traefik with bearer-token auth. Private during development.
+FastMCP server that exposes my CV, projects, voice, and preferences as searchable documents to Claude and other LLM clients across my devices. SQLite FTS5 backend, `streamable-http` transport behind Traefik with bearer-token auth. Running on the homelab; the repo stays private.
 
-### EventForge v3
+### EventForge
 
-Long-running personal project. Private.
+An event-management web app I've been building on and off. The backend is where I want it. The frontend I'm restarting from scratch because it isn't the experience I want yet. Private for now.
 
 ---
 
@@ -54,4 +56,4 @@ I do not claim to hand-type code I generated, or to have built systems from scra
 
 ---
 
-<sub>Last meaningful update: May 2026.</sub>
+<sub>Last meaningful update: July 2026.</sub>
