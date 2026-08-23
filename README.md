@@ -4,6 +4,8 @@ I build small, useful, local-first tools. The kind I want to use myself.
 
 By day I design network and orchestration solutions at a regional carrier. Where I'm headed is security and digital forensics, so a lot of what I build here is me getting hands-on with the operations, monitoring, and incident side that the day job doesn't put in front of me.
 
+CCNA 200-301, passed July 2026.
+
 [LinkedIn](https://www.linkedin.com/in/hashemtouqan/) for the formal bio.
 
 ---
@@ -18,9 +20,15 @@ Local voice-to-text for Windows. Hold a key, talk, release. Free, runs offline, 
 
 ### smeepo
 
-A 28-container personal homelab. Self-hosted media, photo library, mail relay, document workflows, scheduled automation, a custom AI agent, and live integration with my MikroTik router via its API.
+A 63-container personal homelab running across two machines. The main box carries everything that matters: photo library, media, mail relay, document workflows, scheduled automation, a local LLM, log and metric collection, and a custom AI agent. The older machine it replaced was demoted to bulk storage over NFS. My MikroTik router is wired into the same automation over its API.
 
 [Repo](https://github.com/HTouqan/smeepo)
+
+### Forensics and network lab
+
+A Velociraptor DFIR server for endpoint evidence collection, and containerlab topologies for routing practice. Three FRR nodes with OSPF converged is where it stands, with BGP and firewall labs staged next. Neither the DFIR server nor the labs are reachable from outside the LAN.
+
+Runs on the homelab, so there is no separate repo for it.
 
 ### bearing-analyzer
 
@@ -34,7 +42,7 @@ FastMCP server that exposes my CV, projects, voice, and preferences as searchabl
 
 ### EventForge
 
-An event-management web app I've been building on and off. The backend is where I want it. The frontend I'm restarting from scratch because it isn't the experience I want yet. Private for now.
+An event-management web app I've been building on and off. The backend does what I want. The frontend is being rebuilt around a chosen design direction instead of patched further. Private for now.
 
 ---
 
@@ -56,4 +64,4 @@ I do not claim to hand-type code I generated, or to have built systems from scra
 
 ---
 
-<sub>Last meaningful update: July 2026.</sub>
+<sub>Last meaningful update: August 2026.</sub>
