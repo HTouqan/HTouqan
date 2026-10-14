@@ -26,7 +26,7 @@ My homelab runs 63 containers across two machines. The main box runs every servi
 
 ### Forensics and network lab
 
-A Velociraptor DFIR server for collecting evidence from endpoints, and containerlab topologies for routing practice. So far, OSPF has converged across three FRR nodes. BGP and firewall labs are staged next. Neither the DFIR server nor the labs can be reached from outside the LAN.
+A Velociraptor DFIR server for collecting evidence from endpoints, and containerlab topologies for routing practice. So far, OSPF has converged across three FRR nodes. BGP and firewall labs are staged next. Neither the DFIR server nor the labs are reachable from outside the LAN.
 
 It runs on the homelab, so it has no repo of its own. The [smeepo README](https://github.com/HTouqan/smeepo#forensics-and-network-lab) covers it.
 
@@ -50,7 +50,7 @@ An event-management web app I've been building on and off. The backend does what
 
 - I plan before non-trivial changes. Small fixes I just ship.
 - I check preconditions before I measure anything. An assumption is not a check.
-- Anything that runs on its own clock (cron, watchers, polling webhooks) needs explicit approval first. The default is on demand.
+- Anything that runs on its own clock (cron, watchers, polling webhooks) gets explicit approval first. The default is on demand.
 - I keep updates short, but I don't go quiet.
 - I would rather under-claim and be accurate than over-claim and get caught.
 
